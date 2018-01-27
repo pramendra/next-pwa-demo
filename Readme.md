@@ -41,3 +41,8 @@ $ cd next-pwa-demo
 $ now
 $ lighthouse https://pwa-xxx.now.sh --view
 ```
+
+## Production Build Size
+
+https://github.com/pramendra/next-pwa-demo/tree/withReact (212 KB)
+https://github.com/pramendra/next-pwa-demo/tree/withPreact (137 KB)
