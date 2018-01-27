@@ -1,4 +1,10 @@
-## setup
+# NextJS
+
+A JavaScript Framework for building next generation SPA/PWA
+
+[Slideshare](https://www.slideshare.net/dotPKG/nextjs-a-javascript-framework-for-building-next-generation-spa)
+
+## Setup
 
 ```
 $ git clone https://github.com/pramendra/next-pwa-demo.git
@@ -42,6 +48,7 @@ $ now
 $ lighthouse https://pwa-xxx.now.sh --view
 ```
 
-Production Build Size
+## Production Build Size
+
 [NextJS withReact](https://github.com/pramendra/next-pwa-demo/tree/withReact) (212 KB)
 [NextJS withPreact](https://github.com/pramendra/next-pwa-demo/tree/withPreact) (137 KB)
