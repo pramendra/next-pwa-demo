@@ -13,7 +13,15 @@ export default class MyDocument extends Document {
       <html>
         <Head>
           <title>My page</title>
-          <style>{`body { margin: 0 } /* custom! */`}</style>
+          <meta name="viewport" content="width=device-width, initial-scale=1" />
+          <meta charSet="utf-8" />
+          <style jsx global>{`
+            body {
+              background: #000;
+              font: 11px menlo;
+              color: #fff;
+            }
+          `}</style>
         </Head>
         <body>
           <Main />
