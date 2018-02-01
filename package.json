@@ -9,7 +9,9 @@
     "export": "next export",
     "start": "next start",
     "lint": "eslint '**/*.{js,jsx}' --quiet",
-    "format": "prettier --write '**/*.{js,jsx}'"
+    "format": "prettier --write '**/*.{js,jsx}'",
+    "flow": "flow",
+    "flow:stop": "flow stop"
   },
   "keywords": [],
   "author": "",
@@ -22,6 +24,9 @@
     "react-dom": "^16.2.0"
   },
   "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^8.2.1",
+    "babel-preset-flow": "^6.23.0",
     "eslint": "^4.16.0",
     "eslint-config-airbnb": "^16.1.0",
     "eslint-config-prettier": "^2.9.0",
@@ -29,7 +34,9 @@
     "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-prettier": "^2.5.0",
     "eslint-plugin-react": "^7.6.0",
+    "flow-bin": "^0.64.0",
     "prettier": "^1.10.2",
+    "prettier-eslint": "^8.8.1",
     "tailwindcss": "^0.4.1"
   }
 }
