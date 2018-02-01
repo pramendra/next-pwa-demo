@@ -1,3 +1,22 @@
 {
-  "presets": ["next/babel", "flow"]
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "root": ["."],
+        "alias": {
+          "styles": "./styles"
+        },
+        "cwd": "babelrc"
+      }
+    ],
+    [
+      "wrap-in-js",
+      {
+        "extensions": ["css$"]
+      }
+    ]
+  ],
+  "presets": ["next/babel", "flow"],
+  "ignore": []
 }
