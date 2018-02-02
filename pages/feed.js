@@ -1,4 +1,5 @@
-import Link from 'next/link';
+// @flow
+import React from 'react';
 import Layout from './../components/layouts/DefaultLayout';
 import ProductList from './../containers/ProductList';
 

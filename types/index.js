@@ -11,10 +11,21 @@ export type ElementChild =
 
 export type ElementChildren = ElementChild | Array<ElementChild>;
 
-export type nullComponent = () => void;
+export type nullRenderer = () => Element<any> | null;
 
 export type layoutType = {
   children: ElementChildren,
-  renderHeader: nullComponent,
-  renderHeader: nullComponent
+  renderHeader?: nullRenderer,
+  renderFooter?: nullRenderer
+};
+
+export type productType = {
+  id: number,
+  name: string,
+  price: number,
+  image_src: string
+};
+
+export type productsType = {
+  list?: Array<productType>
 };

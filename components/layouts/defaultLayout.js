@@ -1,3 +1,4 @@
+// @flow
 import React from 'react';
 import { renderNull } from './../../helpers/utilities';
 import type { layoutType } from './../../types';

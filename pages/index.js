@@ -1,3 +1,5 @@
+// @flow
+import React from 'react';
 import Link from 'next/link';
 import Layout from './../components/layouts/DefaultLayout';
 import ProductList from './../containers/ProductList';
@@ -8,7 +10,7 @@ export default () => (
       <img
         src="/static/banners/buy-sell-banner.jpg"
         alt="Buy & Sell Things You Love"
-        width="100%"
+        className="block w-full"
       />
     </div>
     <h1>Buy & Sell Things You Love</h1>
