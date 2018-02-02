@@ -3,9 +3,12 @@ import React from 'react';
 import Link from 'next/link';
 import Head from 'next/head';
 import dynamic from 'next/dynamic';
-import ProductList from './../containers/ProductList';
 
 const Layout = dynamic(import('./../components/layouts/DefaultLayout'), {
+  ssr: false
+});
+
+const ProductList = dynamic(import('./../containers/ProductList'), {
   ssr: false
 });
 
