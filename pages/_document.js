@@ -1,5 +1,6 @@
 import Document, { Head, Main, NextScript } from 'next/document';
 import flush from 'styled-jsx/server';
+import stylesheet from '../styles/styles.css';
 
 export default class MyDocument extends Document {
   static getInitialProps({ renderPage }) {
@@ -10,18 +11,15 @@ export default class MyDocument extends Document {
 
   render() {
     return (
-      <html>
+      <html lang="en">
         <Head>
           <title>My page</title>
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <meta charSet="utf-8" />
-          <style jsx global>{`
-            body {
-              background: #000;
-              font: 11px menlo;
-              color: #fff;
-            }
-          `}</style>
+          <style dangerouslySetInnerHTML={{ __html: stylesheet }} />
+          <style jsx global>
+            {``}
+          </style>
         </Head>
         <body>
           <Main />
