@@ -1,7 +1,11 @@
 // @flow
+/* eslint-disable react/no-danger */
 import React from 'react';
 import type { layoutType } from './../../types';
+import dynamic from 'next/dynamic';
 import { rendererHeader, rendererFooter } from './../partials/Headers';
+
+const stylesheet = dynamic(import('../../styles/styles.css'));
 
 export default ({
   children,
@@ -15,6 +19,8 @@ export default ({
   }
   return (
     <div className="p-box">
+      <style dangerouslySetInnerHTML={{ __html: stylesheet }} />
+
       {renderHeader()}
       <div className="c-box">{children}</div>
       {renderFooter()}

@@ -1,8 +1,10 @@
 // @flow
 import React from 'react';
 import Head from 'next/head';
-import Layout from './../components/layouts/DefaultLayout';
+import dynamic from 'next/dynamic';
 import ProductList from './../containers/ProductList';
+
+const Layout = dynamic(import('./../components/layouts/DefaultLayout'));
 
 export default () => (
   <Layout>
