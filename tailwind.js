@@ -61,71 +61,71 @@ const colors = {
   red: '#e3342f',
   'red-light': '#ef5753',
   'red-lighter': '#f9acaa',
-  'red-lightest': '#fcebea',
+  'red-lightest': '#fcebea'
 
-  'orange-darkest': '#462a16',
-  'orange-darker': '#613b1f',
-  'orange-dark': '#de751f',
-  orange: '#f6993f',
-  'orange-light': '#faad63',
-  'orange-lighter': '#fcd9b6',
-  'orange-lightest': '#fff5eb',
+  // 'orange-darkest': '#462a16',
+  // 'orange-darker': '#613b1f',
+  // 'orange-dark': '#de751f',
+  // orange: '#f6993f',
+  // 'orange-light': '#faad63',
+  // 'orange-lighter': '#fcd9b6',
+  // 'orange-lightest': '#fff5eb',
 
-  'yellow-darkest': '#453411',
-  'yellow-darker': '#684f1d',
-  'yellow-dark': '#f2d024',
-  yellow: '#ffed4a',
-  'yellow-light': '#fff382',
-  'yellow-lighter': '#fff9c2',
-  'yellow-lightest': '#fcfbeb',
+  // 'yellow-darkest': '#453411',
+  // 'yellow-darker': '#684f1d',
+  // 'yellow-dark': '#f2d024',
+  // yellow: '#ffed4a',
+  // 'yellow-light': '#fff382',
+  // 'yellow-lighter': '#fff9c2',
+  // 'yellow-lightest': '#fcfbeb',
 
-  'green-darkest': '#0f2f21',
-  'green-darker': '#1a4731',
-  'green-dark': '#1f9d55',
-  green: '#38c172',
-  'green-light': '#51d88a',
-  'green-lighter': '#a2f5bf',
-  'green-lightest': '#e3fcec',
+  // 'green-darkest': '#0f2f21',
+  // 'green-darker': '#1a4731',
+  // 'green-dark': '#1f9d55',
+  // green: '#38c172',
+  // 'green-light': '#51d88a',
+  // 'green-lighter': '#a2f5bf',
+  // 'green-lightest': '#e3fcec',
 
-  'teal-darkest': '#0d3331',
-  'teal-darker': '#20504f',
-  'teal-dark': '#38a89d',
-  teal: '#4dc0b5',
-  'teal-light': '#64d5ca',
-  'teal-lighter': '#a0f0ed',
-  'teal-lightest': '#e8fffe',
+  // 'teal-darkest': '#0d3331',
+  // 'teal-darker': '#20504f',
+  // 'teal-dark': '#38a89d',
+  // teal: '#4dc0b5',
+  // 'teal-light': '#64d5ca',
+  // 'teal-lighter': '#a0f0ed',
+  // 'teal-lightest': '#e8fffe',
 
-  'blue-darkest': '#12283a',
-  'blue-darker': '#1c3d5a',
-  'blue-dark': '#2779bd',
-  blue: '#3490dc',
-  'blue-light': '#6cb2eb',
-  'blue-lighter': '#bcdefa',
-  'blue-lightest': '#eff8ff',
+  // 'blue-darkest': '#12283a',
+  // 'blue-darker': '#1c3d5a',
+  // 'blue-dark': '#2779bd',
+  // blue: '#3490dc',
+  // 'blue-light': '#6cb2eb',
+  // 'blue-lighter': '#bcdefa',
+  // 'blue-lightest': '#eff8ff',
 
-  'indigo-darkest': '#191e38',
-  'indigo-darker': '#2f365f',
-  'indigo-dark': '#5661b3',
-  indigo: '#6574cd',
-  'indigo-light': '#7886d7',
-  'indigo-lighter': '#b2b7ff',
-  'indigo-lightest': '#e6e8ff',
+  // 'indigo-darkest': '#191e38',
+  // 'indigo-darker': '#2f365f',
+  // 'indigo-dark': '#5661b3',
+  // indigo: '#6574cd',
+  // 'indigo-light': '#7886d7',
+  // 'indigo-lighter': '#b2b7ff',
+  // 'indigo-lightest': '#e6e8ff',
 
-  'purple-darkest': '#21183c',
-  'purple-darker': '#382b5f',
-  'purple-dark': '#794acf',
-  purple: '#9561e2',
-  'purple-light': '#a779e9',
-  'purple-lighter': '#d6bbfc',
-  'purple-lightest': '#f3ebff',
+  // 'purple-darkest': '#21183c',
+  // 'purple-darker': '#382b5f',
+  // 'purple-dark': '#794acf',
+  // purple: '#9561e2',
+  // 'purple-light': '#a779e9',
+  // 'purple-lighter': '#d6bbfc',
+  // 'purple-lightest': '#f3ebff',
 
-  'pink-darkest': '#451225',
-  'pink-darker': '#6f213f',
-  'pink-dark': '#eb5286',
-  pink: '#f66d9b',
-  'pink-light': '#fa7ea8',
-  'pink-lighter': '#ffbbca',
-  'pink-lightest': '#ffebef'
+  // 'pink-darkest': '#451225',
+  // 'pink-darker': '#6f213f',
+  // 'pink-dark': '#eb5286',
+  // pink: '#f66d9b',
+  // 'pink-light': '#fa7ea8',
+  // 'pink-lighter': '#ffbbca',
+  // 'pink-lightest': '#ffebef'
 };
 
 module.exports = {
@@ -164,10 +164,10 @@ module.exports = {
   */
 
   screens: {
-    sm: '576px',
-    md: '768px',
-    lg: '992px',
-    xl: '1200px'
+    // sm: '576px',
+    // md: '768px',
+    // lg: '992px',
+    // xl: '1200px'
   },
 
   /*
@@ -190,38 +190,38 @@ module.exports = {
 
   fonts: {
     sans: [
-      'system-ui',
-      'BlinkMacSystemFont',
-      '-apple-system',
-      'Segoe UI',
-      'Roboto',
-      'Oxygen',
-      'Ubuntu',
-      'Cantarell',
-      'Fira Sans',
-      'Droid Sans',
-      'Helvetica Neue',
+      // 'system-ui',
+      // 'BlinkMacSystemFont',
+      // '-apple-system',
+      // 'Segoe UI',
+      // 'Roboto',
+      // 'Oxygen',
+      // 'Ubuntu',
+      // 'Cantarell',
+      // 'Fira Sans',
+      // 'Droid Sans',
+      // 'Helvetica Neue',
       'sans-serif'
     ],
     serif: [
-      'Constantia',
-      'Lucida Bright',
-      'Lucidabright',
-      'Lucida Serif',
-      'Lucida',
-      'DejaVu Serif',
-      'Bitstream Vera Serif',
-      'Liberation Serif',
-      'Georgia',
-      'serif'
+      // 'Constantia',
+      // 'Lucida Bright',
+      // 'Lucidabright',
+      // 'Lucida Serif',
+      // 'Lucida',
+      // 'DejaVu Serif',
+      // 'Bitstream Vera Serif',
+      // 'Liberation Serif',
+      // 'Georgia',
+      // 'serif'
     ],
     mono: [
-      'Menlo',
-      'Monaco',
-      'Consolas',
-      'Liberation Mono',
-      'Courier New',
-      'monospace'
+      // 'Menlo',
+      // 'Monaco',
+      // 'Consolas',
+      // 'Liberation Mono',
+      // 'Courier New',
+      // 'monospace'
     ]
   },
 
@@ -245,15 +245,15 @@ module.exports = {
   */
 
   textSizes: {
-    xs: '.75rem', // 12px
+    // xs: '.75rem', // 12px
     sm: '.875rem', // 14px
     base: '1rem', // 16px
     lg: '1.125rem', // 18px
     xl: '1.25rem', // 20px
-    '2xl': '1.5rem', // 24px
-    '3xl': '1.875rem', // 30px
-    '4xl': '2.25rem', // 36px
-    '5xl': '3rem' // 48px
+    '2xl': '1.5rem' // 24px
+    // '3xl': '1.875rem', // 30px
+    // '4xl': '2.25rem', // 36px
+    // '5xl': '3rem' // 48px
   },
 
   /*
@@ -271,15 +271,15 @@ module.exports = {
   */
 
   fontWeights: {
-    hairline: 100,
+    // hairline: 100,
     thin: 200,
-    light: 300,
-    normal: 400,
-    medium: 500,
-    semibold: 600,
-    bold: 700,
-    extrabold: 800,
-    black: 900
+    // light: 300,
+    normal: 400
+    // medium: 500,
+    // semibold: 600,
+    // bold: 700,
+    // extrabold: 800,
+    // black: 900
   },
 
   /*
@@ -295,10 +295,10 @@ module.exports = {
   */
 
   leading: {
-    none: 1,
-    tight: 1.25,
-    normal: 1.5,
-    loose: 2
+    // none: 1,
+    // tight: 1.25,
+    // normal: 1.5,
+    // loose: 2
   },
 
   /*
@@ -314,9 +314,9 @@ module.exports = {
   */
 
   tracking: {
-    tight: '-0.05em',
-    normal: '0',
-    wide: '0.05em'
+    // tight: '-0.05em',
+    // normal: '0',
+    // wide: '0.05em'
   },
 
   /*
@@ -363,11 +363,11 @@ module.exports = {
   */
 
   borderWidths: {
-    default: '1px',
-    '0': '0',
-    '2': '2px',
-    '4': '4px',
-    '8': '8px'
+    // default: '1px',
+    // '0': '0',
+    // '2': '2px',
+    // '4': '4px',
+    // '8': '8px'
   },
 
   /*
@@ -406,11 +406,11 @@ module.exports = {
   */
 
   borderRadius: {
-    none: '0',
-    sm: '.125rem',
-    default: '.25rem',
-    lg: '.5rem',
-    full: '9999px'
+    // none: '0',
+    // sm: '.125rem',
+    // default: '.25rem',
+    // lg: '.5rem',
+    // full: '9999px'
   },
 
   /*
@@ -480,23 +480,23 @@ module.exports = {
   */
 
   height: {
-    auto: 'auto',
-    px: '1px',
-    '1': '0.25rem',
-    '2': '0.5rem',
-    '3': '0.75rem',
-    '4': '1rem',
-    '6': '1.5rem',
-    '8': '2rem',
-    '10': '2.5rem',
-    '12': '3rem',
-    '16': '4rem',
-    '24': '6rem',
-    '32': '8rem',
-    '48': '12rem',
-    '64': '16rem',
-    full: '100%',
-    screen: '100vh'
+    // auto: 'auto',
+    // px: '1px',
+    // '1': '0.25rem',
+    // '2': '0.5rem',
+    // '3': '0.75rem',
+    // '4': '1rem',
+    // '6': '1.5rem',
+    // '8': '2rem',
+    // '10': '2.5rem',
+    // '12': '3rem',
+    // '16': '4rem',
+    // '24': '6rem',
+    // '32': '8rem',
+    // '48': '12rem',
+    // '64': '16rem',
+    // full: '100%',
+    // screen: '100vh'
   },
 
   /*
@@ -554,16 +554,16 @@ module.exports = {
   */
 
   maxWidth: {
-    xs: '20rem',
-    sm: '30rem',
-    md: '40rem',
-    lg: '50rem',
-    xl: '60rem',
-    '2xl': '70rem',
-    '3xl': '80rem',
-    '4xl': '90rem',
-    '5xl': '100rem',
-    full: '100%'
+    // xs: '20rem',
+    // sm: '30rem',
+    // md: '40rem',
+    // lg: '50rem',
+    // xl: '60rem',
+    // '2xl': '70rem',
+    // '3xl': '80rem',
+    // '4xl': '90rem',
+    // '5xl': '100rem',
+    // full: '100%'
   },
 
   /*
@@ -581,8 +581,8 @@ module.exports = {
   */
 
   maxHeight: {
-    full: '100%',
-    screen: '100vh'
+    // full: '100%',
+    // screen: '100vh'
   },
 
   /*
@@ -783,25 +783,25 @@ module.exports = {
   */
 
   modules: {
-    appearance: ['responsive'],
-    backgroundAttachment: ['responsive'],
+    appearance: false,
+    backgroundAttachment: false,
     backgroundColors: ['responsive', 'hover'],
-    backgroundPosition: ['responsive'],
-    backgroundRepeat: ['responsive'],
-    backgroundSize: ['responsive'],
-    borderColors: ['responsive', 'hover'],
-    borderRadius: ['responsive'],
-    borderStyle: ['responsive'],
-    borderWidths: ['responsive'],
-    cursor: ['responsive'],
+    backgroundPosition: false,
+    backgroundRepeat: false,
+    backgroundSize: false,
+    borderColors: false,
+    borderRadius: false,
+    borderStyle: false,
+    borderWidths: false,
+    cursor: false,
     display: ['responsive'],
     flexbox: ['responsive'],
-    float: ['responsive'],
+    float: false,
     fonts: ['responsive'],
     fontWeights: ['responsive', 'hover'],
     height: ['responsive'],
-    leading: ['responsive'],
-    lists: ['responsive'],
+    leading: false,
+    lists: false,
     margin: ['responsive'],
     maxHeight: ['responsive'],
     maxWidth: ['responsive'],
@@ -811,21 +811,21 @@ module.exports = {
     opacity: ['responsive'],
     overflow: ['responsive'],
     padding: ['responsive'],
-    pointerEvents: ['responsive'],
+    pointerEvents: false,
     position: ['responsive'],
-    resize: ['responsive'],
-    shadows: ['responsive'],
-    svgFill: [],
-    svgStroke: [],
+    resize: false,
+    shadows: false,
+    svgFill: false,
+    svgStroke: false,
     textAlign: ['responsive'],
     textColors: ['responsive', 'hover'],
     textSizes: ['responsive'],
     textStyle: ['responsive', 'hover'],
-    tracking: ['responsive'],
-    userSelect: ['responsive'],
+    tracking: false,
+    userSelect: false,
     verticalAlign: ['responsive'],
-    visibility: ['responsive'],
-    whitespace: ['responsive'],
+    visibility: false,
+    whitespace: false,
     width: ['responsive'],
     zIndex: ['responsive']
   },
