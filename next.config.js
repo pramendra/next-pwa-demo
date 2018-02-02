@@ -3,8 +3,7 @@
 module.exports = {
   exportPathMap: () => ({
     '/': { page: '/' },
-    '/feed': { page: '/feed' },
-    '/pdp': { page: '/pdp' }
+    '/feed': { page: '/feed' }
   }),
 
   webpack: config => {
