@@ -20,10 +20,10 @@ module.exports = {
         use: ['babel-loader', 'raw-loader', 'postcss-loader']
       }
     );
-    config.resolve.alias = {
-      react: 'preact-compat/dist/preact-compat',
-      'react-dom': 'preact-compat/dist/preact-compat'
-    };
+    // config.resolve.alias = {
+    //   react: 'preact-compat/dist/preact-compat',
+    //   'react-dom': 'preact-compat/dist/preact-compat'
+    // };
     return config;
   }
 };
