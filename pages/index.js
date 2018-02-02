@@ -1,11 +1,19 @@
 // @flow
 import React from 'react';
 import Link from 'next/link';
+import Head from 'next/head';
 import Layout from './../components/layouts/DefaultLayout';
 import ProductList from './../containers/ProductList';
 
 export default () => (
   <Layout>
+    <Head>
+      <title>BUY & SELL THINGS YOU LOVE</title>
+      <meta
+        name="description"
+        content="Mercari provides a hassle-free and secure way for anyone to buy and sell stuff straight from their mobile device. We provide a buyer protection guarantee so you can buy in confidence."
+      />
+    </Head>
     <div>
       <img
         src="/static/banners/buy-sell-banner.jpg"
