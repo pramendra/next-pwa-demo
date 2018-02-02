@@ -5,7 +5,9 @@ module.exports = {
   plugins: [
     // ...
     tailwindcss('./tailwind.js'),
-    require('autoprefixer')
+    require('autoprefixer'),
+    require('postcss-nested'),
+    require('cssnano')
     // ...
   ]
 };
