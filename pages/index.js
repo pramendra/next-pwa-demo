@@ -21,16 +21,21 @@ export default () => (
         className="block w-full"
       />
     </div>
-    <h1>Buy & Sell Things You Love</h1>
-    <h5>The fast and easy way for anyone to buy and sell From your phone.</h5>
-
-    <div className="trending-bar flex flex-row bg-grey-lighter my-2 py-2">
+    <div className="p-2">
+      <h1 className="text-red-light text-2xl p-2">
+        Buy & Sell Things You Love
+      </h1>
+      <h5 className="text-grey-base text-sm font-thin p-2">
+        The fast and easy way for anyone to buy and sell From your phone.
+      </h5>
+    </div>
+    <div className="trending-bar flex flex-row bg-grey-lighter my-2 p-2">
       <div className="flex-1">
-        <h2>Trending</h2>
+        <h2 className="text-grey-base text-lg font-thin p-2">Trending</h2>
       </div>
       <div className="flex content-end self-center">
         <Link prefetch href="/feed">
-          <a>View All</a>
+          <a className="text-grey-base text-sm font-thin p-2">View All</a>
         </Link>
       </div>
     </div>
